@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #91e1d8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4e4351;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: #4e4351;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
+
+.logout {
+    /*width: 100%;*/
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #87b9b3;
+    margin-bottom: 5px;
+    text-decoration: none;
+  }
+
+  .logout:hover {
+    background-color: rgb(84, 172, 223);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px); /* Se ridică ușor */
+}
+
+/* Efect de apăsare (când butonul este apăsat) */
+.logout:active {
+    background-color: rgb(84, 172, 223);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px); /* Apăsarea reduce înălțimea */
+}
+
+h2 {
+    background-color: #bbe7e2;
+    color:#4c8d85;
+    padding: 20px;
+}
+.continut {
+    padding: 20px;
+    
+}
+
+.logo {
+            
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.logo img{
+    width: 100%;
+}
+
+.rola {
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+
+     display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #eac7f4;
+    }
+    
+    
+    nav > a {
+        margin: 0 1rem ;
+    overflow: hidden;
+    
+    }
+    a:link {
+        text-decoration:none;
+        color:#4e4351;
+        text-shadow: 1px 1px white;
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 10px;
+        }
+        a:visited {
+            color:#4e4351;
+        }
+        a:hover {
+            color:#5aaaa1;
+        }
+    a:active {
+            color:chartreuse;
+    }
+
+
+        
+    table {
+        width: 80%;
+        margin: 20px auto;
+        /*border-collapse: collapse;*/
+        font-family: Arial, sans-serif;
+    }
+    
+    /* Stil pentru capul tabelului */
+    thead {
+        background-color: #eac7f4;
+        color: #4e4351;
+    }
+    
+    /* Stil pentru celulele din capul tabelului */
+    th {
+        padding: 10px;
+        text-align: left;
+    }
+    
+    /* Stil pentru rândurile tabelului */
+    td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    /* Rânduri alternante (pentru un contrast mai bun) */
+    tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    /* Hover pentru rânduri */
+    tbody tr:hover {
+        background-color: #ddd;
+    }
+
+ 

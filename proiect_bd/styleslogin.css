@@ -1,0 +1,112 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eac7f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        footer {
+            background-color: #4e4351;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .login-div{
+            margin: 100px auto;
+            width: 350px;
+            background-color: whitesmoke;
+            padding: 60px;
+        }
+
+        .logo {
+            
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+        .logo img{
+            width: 100%;
+        }
+        
+        .title {
+            text-align: center;
+            font-weight: bolder;
+            font-size: 35px;
+        }
+        .username,.password {
+            display: block;
+            border-radius: 30px;
+            border: 1px solid black;
+            padding: 15px;
+            margin: 10px 0px 10px 0px ;
+        }
+
+        input
+        {
+          
+            font-size: 18px;
+            padding: 10px ;
+            border: none;
+            outline: none;
+            background: none;
+        }
+        .svg-icon {
+            margin: 10px 5px -5px 10px;
+            width: 25px;
+            height: 25px;
+          }
+          
+          .svg-icon path,
+          .svg-icon polygon,
+          .svg-icon rect {
+            fill: #91e1d8;
+          }
+          
+          .svg-icon circle {
+            stroke: #91e1d8;
+            stroke-width: 1;
+          }
+
+          .login {
+            width: 100%;
+            padding: 12px 10px;
+            border: none;
+            font-size: 18px;
+            border-radius: 30px;
+            background-color: #eac7f4;
+            margin-bottom: 5px;
+          }
+
+          .login:hover {
+            background-color: rgb(84, 172, 223);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+            transform: translateY(-2px); /* Se ridică ușor */
+        }
+
+        /* Efect de apăsare (când butonul este apăsat) */
+        .login:active {
+            background-color: rgb(84, 172, 223);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transform: translateY(2px); /* Apăsarea reduce înălțimea */
+        }
+
+          .signup{
+            text-align: center;
+          }
+          a {
+            text-decoration: none;
+            color: #505050;
+          }
